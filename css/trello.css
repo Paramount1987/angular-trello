@@ -1,0 +1,25 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+header{background:#34495E;color:#fff;margin: 0 0 20px 0;}
+.app-name{	margin: 0 0 0 50px;}
+/*list task*/
+.row-list{font-size: 0;}
+.list{background: #ccc;	border: 1px solid #333;	border-radius: 5px;}
+
+.list-inline{ position: relative;display: inline-block;vertical-align: top; width: 24%;margin: 0 .5% 10px .5%;padding: 15px 10px 10px 10px;}
+
+.new-list{padding: 10px;background: #34495E;}
+.new-list input{margin-bottom:0;height:38px;border-radius: 2px;}
+.remove-list{font-size: 18px;color:#000;}
+.hand{position: absolute;z-index: 10;top:3px;right:10px;display: inline-block;width:15px;height: 20px;font-weight: bold;cursor:pointer;}
+
+/*card*/
+.card{ position: relative;background: #fff;border-radius: 4px;padding:20px 8px 8px 8px;font-size: 14px;border: 1px solid #333;margin: 10px 0;}
+.new-card{position:relative;margin: 10px 0;}
+.new-card input{margin-bottom: 0;border-radius: 4px;font-size: 14px;}
+.remove-card{top:0;right:5px;font-size: 18px;}
+.edit-card{right: 25px;top:0;font-size: 18px;}
+.icon-complete-card{font-size: 21px;top:-2px;right:47px;}
+.card-completed{background:#BBB9B9;} 
